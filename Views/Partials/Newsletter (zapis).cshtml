@@ -1,0 +1,16 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+<div class="container">
+            <div class="row">
+                <div class="col-md-12 subscribe">
+                    <h3>Chcesz otrzymać najświeższe informacje?</h3>
+                    <p>Zapisz się do naszego newslettera! Pozostańmy w kontakcie!</p>
+                    <form class="form-inline" action="assets/sendmail.php" method="post">
+                        <input type="text" name="email" placeholder="Wprowadź swój email...">
+                        <button type="submit" class="btn">Wyślij</button>
+                    </form>
+                    <div class="success-message"></div>
+                    <div class="error-message"></div>
+         		</div>
+         	</div>
+            
+        </div>
